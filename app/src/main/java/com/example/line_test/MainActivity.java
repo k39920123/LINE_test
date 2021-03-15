@@ -161,6 +161,10 @@ public class MainActivity extends AppCompatActivity {
                 Log.e("ERROR", result.getErrorData().toString());
         }
     }
+
+    void TestPush(){
+        Log.d("Test","Test");
+    }
 }
 
 //token profile api
